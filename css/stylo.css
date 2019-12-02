@@ -1,9 +1,15 @@
-html,
 body{
-	height: 100%;
-	margin: 0;
+	background-color: #18171c;
+	/*background-color: gray;*/
+	color: #fafbfd;
 }
 
-body{
-	 background: linear-gradient(to bottom, #003366 0%, #669999 100%);
+nav a{
+	list-style: none;
+	color: #fafbfd;
+	font-size: 1.34rem;
+}
+
+h6{
+	font-family: 'Open Sans', sans-serif;
 }
