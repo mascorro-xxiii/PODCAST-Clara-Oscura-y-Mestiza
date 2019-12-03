@@ -1,15 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Permanent+Marker&display=swap');
+
+html,
+body,
+header, 
+main{
+  	height: 100%;
+	color: #fafbfd;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header{
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header{
+    height: 600px;
+  }
+}
+
 body{
-	background-color: #18171c;
-	/*background-color: gray;*/
-	color: #fafbfd;
+	
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-position: left center;
 }
 
-nav a{
+nav ul li{
 	list-style: none;
-	color: #fafbfd;
-	font-size: 1.34rem;
+	list-style-type: none;	
+	display: inline;
+	font-size: 1.64rem;
 }
 
-h6{
+a{
+	color: #fafbfd;
+}
+
+.enlaces{
+	margin-top: 23px;
+}	
+
+.imagen{
+	margin-top: 19px;
+	box-shadow: 5px 10px rgba(0, 0, 0, 0.58);
+   -moz-box-shadow: 5px 10px rgba(0, 0, 0, 0.58);
+   -webkit-box-shadow: 5px 10px rgba(0, 0, 0, 0.58);
+}
+
+.titulo{
+	margin-top: 43px; 
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2.80rem;
+	text-shadow: 0px 1px 0 #0a0e27, -2px 2px 0 #0a0e27;
+	color: #b3193f;
+}
+
+main{
+	background-color: rgb(245, 237, 169);
+
+}
+
+.whoIam{	
+	color: #000;	
+}
+
+.descripcion{
+	font-family: 'Noto Sans KR', sans-serif;
+	margin-top: 93px;	
+}
+
+.descripcion i{
+	list-style: none;
+	text-align: center;
+}
+
+.pie{
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 240px;
+	color: #000;
 }
